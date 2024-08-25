@@ -1,0 +1,69 @@
+/* Add Widget Form Styles */
+.add_widget_form{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;    
+}
+
+.add_widget_form label{
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+}
+
+.add_widget_form input,.add_widget_form select{
+    height: 26px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+.add_widget_form input:focus,.add_widget_form select:focus{
+    outline: none;
+}
+
+.widget_form_title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.widget_form_feilds{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.widget_form_feild{
+    display: flex;
+    align-items: center;
+}
+
+.widget_form_remove{
+    background-color: #b30b00;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.widget_form_add_feild{
+    background-color: #0a66c2;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.widget_form_submit{
+    background-color: #14147d;
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+}

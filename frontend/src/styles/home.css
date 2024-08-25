@@ -1,0 +1,142 @@
+.dashboard{
+    background-color: #f0f5fa;
+    min-height: calc(100vh - 40px);
+  }
+  
+  /* Dashboard top Section Styles */
+  .dashboard_title_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .dashboard_title{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .dashboard_title_right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dashboard_title_right_button{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+  .dashboard_title_right_button p{
+    font-size: 14px;
+  }
+  
+  .dashboard_title_right_button svg{
+    height: 14px;
+  }
+  
+  .last_seen{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #14147d;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .last_seen_icon{
+    color: #14147d;
+    height: 20px;
+  }
+  
+  .last_seen_main{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+    border-left: 2px solid #14147d;
+    padding: 0 5px;
+  }
+  
+  .last_seen_main p{
+    color: #14147d;
+    font-size: 14px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  
+  .last_seen_main svg{
+    color: #14147d;
+    height: 10px;
+  }
+  
+  
+  /* Main Section */
+  .dashboard_main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .widgets_section_title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .widgets_section_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+  
+  .dashboard_add_widget{
+      background-color: #fafafa;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+  }
+  
+  .dashboard_add_widget_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .dashboard_add_widget_main svg{
+    height: 16px;
+  }
+
+
+  @media (min-width: 769px) and (max-width: 1080px){
+    .widgets_section_main{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+
+  @media (max-width: 768px){
+    .widgets_section_main{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }

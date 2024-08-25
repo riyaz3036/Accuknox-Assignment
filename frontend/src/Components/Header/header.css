@@ -1,0 +1,128 @@
+.header_main{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 5px 20px;
+    z-index: 500;
+}
+
+/* Header Left Styles */
+.header_path{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #c2c7cd;
+    font-size: 12px;
+}
+
+.header_path_to{
+   color: #14147d;
+   font-weight: 600;
+}
+
+.header_path_arrow{
+    height: 10px;
+}
+
+
+/* Header Right Styles */
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_search{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f0f5fa;
+    border: 2px solid #e0edfe;
+}
+
+.header_search_icon{
+    height: 20px;
+    color: rgba(0,0,0,0.2);
+}
+
+.header_search input{
+    width: 300px;
+    height: 100%;
+    padding: 5px;
+    background-color: #f0f5fa;
+    border: none;
+}
+
+.header_search input::placeholder{
+    color: rgba(0,0,0,0.2);
+    font-weight: 500;
+}
+
+.header_search input:focus{
+    outline: none;
+}
+
+.header_search button{
+    background-color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.header_search button svg{
+    height: 14px;
+    color: rgba(0,0,0,0.2)
+}
+
+.header_notifi svg{
+    height: 22px;
+    color: rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.header_user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.header_user p{
+    font-size: 12px;
+    color: rgba(0,0,0,0.2);
+}
+
+.header_icon_cont{
+   height: 22px;
+   width: 22px;
+   border-radius: 11px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(0,0,0,0.2);
+}
+
+.header_user_icon{
+    height: 16px;
+    color: #fff;
+}
+
+@media (max-width: 678px){
+    .header_search input{
+        width: 100%;
+    }
+}

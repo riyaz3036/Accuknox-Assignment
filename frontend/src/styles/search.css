@@ -1,0 +1,42 @@
+.search_main{
+    background-color: #f0f5fa;
+    min-height: calc(100vh - 40px);
+}
+
+.search_title_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.search_title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search_return{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search_return svg{
+    height: 14px;
+}
+
+.search_return p{
+    font-size: 12px;
+}
+
+.no_search_widgets{
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6)
+}

@@ -1,0 +1,17 @@
+.donut_chart_widget{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.donut_chart_widget_main{
+    display: flex;
+    justify-content: center;
+}
+
+.widget_title{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,17 @@
+.bar_graph_widget{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.bar_graph_widget_main{
+    display: flex;
+    justify-content: center;
+}
+
+.widget_title{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
