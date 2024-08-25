@@ -16,7 +16,7 @@ This website allows users to manage and visualize their data with interactive wi
 
 ## A sneak peek into what we have here!
 
-Visit the website at: 
+Visit the website at: https://accuknox-assignment-kohl.vercel.app/
 
 ### Home Page (Desktp view)
 <img src="readmeassets/Home.png" width="500px" >
