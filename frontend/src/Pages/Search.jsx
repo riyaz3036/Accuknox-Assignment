@@ -20,7 +20,7 @@ const Search = ()=>{
         <div className="search_main">
             <div className="search_title_section">
                 <p className="search_title">Search Results for '{id}'</p>
-                <div className="search_return" onClick={()=>navigate('/home')}>
+                <div className="search_return" onClick={()=>navigate('/')}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
                     </svg>
