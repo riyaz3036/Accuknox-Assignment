@@ -58,6 +58,7 @@ const Header = () => {
                         placeholder="Search anything..." 
                         value={searchText} 
                         onChange={handleSearchChange} 
+                        onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
                         required
                     />
                     <button onClick={handleSearch}>

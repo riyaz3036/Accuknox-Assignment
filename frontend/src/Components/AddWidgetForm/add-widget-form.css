@@ -15,7 +15,7 @@
 .add_widget_form input,.add_widget_form select{
     height: 26px;
     width: 100%;
-    padding: 5px;
+    padding: 0 5px;
     border-radius: 5px;
     border: 2px solid rgba(0,0,0,0.2);
 }

@@ -39,9 +39,7 @@ const AddWidgetForm = () =>{
         };
         dispatch(addWidget(newWidget));
         alert('Added Widget Successfully!')
-        setTitle('');
-        setCategory('donut');
-        setFields([{ field: '', value: '', color: '' }]);
+        window.location.reload();
     };
 
     return(
